@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dynamicsoft.menuproject.MainActivity">
+
+
+    <item
+        android:id="@+id/menu_search"
+        android:title="Search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/citySearch"
+        android:title="City Preferences"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/refresh"
+        android:icon="@drawable/refresh"
+        android:title="Refresh"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/aboutApp"
+        android:orderInCategory="100"
+        android:title="About App"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/actionExit"
+        android:orderInCategory="100"
+        android:title="Exit"
+        app:showAsAction="never" />
+
+</menu>
